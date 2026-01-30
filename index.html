@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Meryem Lalouli | Frontend Developer</title>
+    <meta
+      name="description"
+      content="Portfolio of Meryem Lalouli, frontend developer focused on React, Astro, and high-performance web experiences."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div class="noise-overlay" aria-hidden="true"></div>
+    <header class="site-header">
+      <div class="shell nav">
+  <a class="logo" href="#top" aria-label="Back to top">
+          <span>Meryem</span>
+          <span class="accent">Lalouli</span>
+        </a>
+        <nav class="nav-links">
+          <a href="#experience">Experience</a>
+          <a href="#projects">Projects</a>
+          <a href="#skills">Skills</a>
+          <a href="#testimonials">Testimonials</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <div class="nav-actions">
+          <a class="btn ghost" href="mailto:meryemlalouli@gmail.com">Let's talk</a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section id="top" class="section hero">
+        <div class="shell hero-grid">
+          <div class="hero-content animate-on-scroll">
+            <p class="eyebrow">Frontend Engineer · Khouribga, Morocco</p>
+            <h1>I turn ambitious Figma files into living web experiences.</h1>
+            <p class="lead">
+              React, Astro, tasteful motion, and relentless UX focus—I build accessible, production-ready interfaces for
+              demanding product teams.
+            </p>
+            <p class="typed-line">
+              I craft <span class="typed-text" data-typed></span><span class="caret" data-caret></span>
+            </p>
+            <div class="hero-cta">
+              <a class="btn primary" href="#contact" data-scroll-target="#contact">Work together</a>
+              <button class="btn secondary" type="button" data-scroll-target="#projects">See my work</button>
+            </div>
+            <dl class="contact-grid">
+              <div>
+                <dt>Email</dt>
+                <dd><a href="mailto:meryemlalouli@gmail.com">meryemlalouli@gmail.com</a></dd>
+              </div>
+              <div>
+                <dt>Téléphone</dt>
+                <dd><a href="tel:+212644220172">+212 644 220 172</a></dd>
+              </div>
+              <div>
+                <dt>LinkedIn</dt>
+                <dd><a href="https://www.linkedin.com/in/mlalouli" target="_blank" rel="noreferrer">linkedin.com/in/mlalouli</a></dd>
+              </div>
+              <div>
+                <dt>GitHub</dt>
+                <dd><a href="https://github.com/mlalouli" target="_blank" rel="noreferrer">github.com/mlalouli</a></dd>
+              </div>
+            </dl>
+            <div class="hero-stats" data-hero-stats></div>
+          </div>
+
+          <div class="hero-visual animate-on-scroll">
+            <div class="hero-card">
+              <p class="eyebrow">Fresh stack</p>
+              <ul class="stack-list">
+                <li>React · Astro</li>
+                <li>TypeScript · NestJS</li>
+                <li>UX · UI Systems</li>
+              </ul>
+              <div class="status-chip">Open to frontend missions</div>
+            </div>
+            <div class="hero-metrics">
+              <div>
+                <p>Launched products</p>
+                <strong>cartecadeau.ma · agenz.com</strong>
+              </div>
+              <div>
+                <p>Focus</p>
+                <strong>User experience & performance</strong>
+              </div>
+            </div>
+            <div class="hero-orbits" aria-hidden="true">
+              <span class="orb orb-1" data-orb="0"></span>
+              <span class="orb orb-2" data-orb="1"></span>
+              <span class="orb orb-3" data-orb="2"></span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="experience" class="section alt">
+        <div class="shell">
+          <div class="section-heading animate-on-scroll">
+            <p class="eyebrow">Experience</p>
+            <h2>Products shipped with ambitious teams</h2>
+            <p>
+              React, Astro, NestJS, and collaborative workflows—I help product squads deliver fast without trading off
+              quality.
+            </p>
+          </div>
+          <div class="timeline" data-experience></div>
+        </div>
+      </section>
+
+      <section id="projects" class="section">
+        <div class="shell">
+          <div class="section-heading animate-on-scroll">
+            <p class="eyebrow">Selected work</p>
+            <h2>Interactive interfaces and reliable systems</h2>
+            <p>Proof-of-concepts, live products, and C++ experiments—here’s what I enjoy building.</p>
+          </div>
+          <div class="filters" role="tablist" aria-label="Project categories">
+            <button class="chip chip-active" data-filter="all" role="tab" aria-selected="true">All</button>
+            <button class="chip" data-filter="frontend" role="tab">Frontend</button>
+            <button class="chip" data-filter="platform" role="tab">Platform</button>
+            <button class="chip" data-filter="systems" role="tab">Systems</button>
+          </div>
+          <div class="projects-grid" data-projects></div>
+        </div>
+      </section>
+
+      <section id="skills" class="section alt">
+        <div class="shell">
+          <div class="section-heading animate-on-scroll">
+            <p class="eyebrow">Core skills</p>
+            <h2>A modern stack, ready for production</h2>
+          </div>
+          <div class="skills-grid" data-skill-groups></div>
+        </div>
+      </section>
+
+      <section id="education" class="section">
+        <div class="shell">
+          <div class="section-heading animate-on-scroll">
+            <p class="eyebrow">Education</p>
+            <h2>Learning never stops</h2>
+          </div>
+          <div class="timeline compact" data-education></div>
+        </div>
+      </section>
+
+      <section id="languages" class="section alt">
+        <div class="shell">
+          <div class="section-flex animate-on-scroll">
+            <div>
+              <p class="eyebrow">Languages & interests</p>
+              <h2>Multilingual comfort & constant curiosity</h2>
+            </div>
+            <div>
+              <div class="pill-row" data-languages></div>
+              <div class="pill-row subtle" data-passions></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="testimonials" class="section">
+        <div class="shell">
+          <div class="section-heading animate-on-scroll">
+            <p class="eyebrow">Recommendation</p>
+            <h2>Trusted by engineering leadership</h2>
+            <p>Direct endorsement from Agenz’s CTO, highlighting my adaptability, product mindset, and AI-assisted workflow.</p>
+          </div>
+          <div class="testimonial-grid" data-testimonials></div>
+        </div>
+      </section>
+
+      <section id="contact" class="section cta">
+        <div class="shell cta-card animate-on-scroll">
+          <div>
+            <p class="eyebrow">Shall we build together?</p>
+            <h2>I join frontend missions, freelance gigs, or fully-remote teams.</h2>
+            <p>
+              From discovery to micro-interactions, I embed with your squad, own a frontend scope, or spin up fast
+              prototypes.
+            </p>
+          </div>
+          <div class="cta-actions">
+            <a class="btn primary" href="mailto:meryemlalouli@gmail.com">Start a project</a>
+            <a class="btn secondary" href="https://github.com/mlalouli" target="_blank" rel="noreferrer">GitHub</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="shell footer-grid">
+        <div>
+          <p class="eyebrow">Meryem Lalouli</p>
+          <p>Frontend developer · React · Astro · NestJS</p>
+        </div>
+        <div class="footer-links">
+          <a href="mailto:meryemlalouli@gmail.com">Email</a>
+          <a href="https://www.linkedin.com/in/mlalouli" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a href="https://github.com/mlalouli" target="_blank" rel="noreferrer">GitHub</a>
+        </div>
+        <p class="footer-note">Always curious to learn and experiment.</p>
+      </div>
+    </footer>
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
